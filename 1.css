@@ -1,0 +1,31 @@
+.input-grid,.container{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    font-size:large;
+    max-width: 90%;
+    width:auto;
+}
+.container{
+    align-items: stretch;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.add-button{
+    color:white;
+    background-color: green;
+    border:none;
+    border-radius: 5px;
+    padding:10px;
+    cursor:pointer;
+}
+.delete-button{
+    color:white;
+    background-color: red;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:8px;
+}
